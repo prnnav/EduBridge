@@ -1,0 +1,36 @@
+[
+  {
+    "id": "math-basics",
+    "title": "Math Basics",
+    "content": "Learn addition, subtraction, multiplication, and division.",
+    "quiz": [
+      {
+        "question": "What is 2 + 3?",
+        "options": ["4", "5", "6"],
+        "answer": "5"
+      },
+      {
+        "question": "5 × 2 = ?",
+        "options": ["10", "12", "8"],
+        "answer": "10"
+      }
+    ]
+  },
+  {
+    "id": "science-water-cycle",
+    "title": "Science - Water Cycle",
+    "content": "Understand the processes of evaporation, condensation, and precipitation.",
+    "quiz": [
+      {
+        "question": "Which process turns water into vapor?",
+        "options": ["Evaporation", "Condensation", "Precipitation"],
+        "answer": "Evaporation"
+      },
+      {
+        "question": "Rain forms during?",
+        "options": ["Evaporation", "Condensation", "Transpiration"],
+        "answer": "Condensation"
+      }
+    ]
+  }
+]
