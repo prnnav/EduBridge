@@ -1,0 +1,51 @@
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+/* High contrast mode */
+body.high-contrast {
+  background-color: black;
+  color: white;
+}
+
+body.high-contrast header {
+  background-color: yellow;
+  color: black;
+}
+
+/* Large font size */
+body.large-font {
+  font-size: 1.25rem;
+}
+
+/* Accessible buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+button:focus {
+  outline: 3px solid #ffbf47;
+}
