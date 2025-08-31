@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduAccess - Accessible Learning</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>EduAccess</h1>
+    <p>Inclusive Learning for Everyone</p>
+  </header>
+
+  <main>
+    <section id="lesson-list">
+      <h2>Available Lessons</h2>
+      <ul id="lessons"></ul>
+    </section>
+
+    <section id="lesson-content" aria-live="polite">
+      <h2>Lesson Content</h2>
+      <p>Select a lesson to view its content.</p>
+    </section>
+
+    <section id="quiz-section" aria-live="polite" hidden>
+      <h2>Quiz</h2>
+      <div id="quiz"></div>
+      <button id="submit-quiz">Submit Quiz</button>
+    </section>
+
+    <section id="score-section" hidden>
+      <h2>Your Score</h2>
+      <p id="score"></p>
+    </section>
+
+    <button id="toggle-contrast">Toggle High Contrast</button>
+    <button id="toggle-font-size">Toggle Font Size</button>
+  </main>
+
+  <script src="js/app.js"></script>
+  <script src="js/service-worker.js"></script>
+</body>
+</html>
